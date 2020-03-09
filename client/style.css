@@ -1,0 +1,58 @@
+@import url('//fonts.googleapis.com/css?family=Old+Standard+TT:400,400i');
+@import url('//fonts.googleapis.com/css?family=Gudea:400,400i,700');
+
+body,html{
+    height: 100%;
+    font-family: "Old Standard TT";
+    font-size: 20px;
+    align-items: center;
+}
+
+.container{
+    align-content: center;
+}
+
+.panel{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 450px;
+    border-radius: 5px;
+    background-color: rgba(12,195,232);
+}
+
+#users{
+    padding-left: 20px;
+    background-color: #f5ba45;
+}
+#currentUser{
+    padding-left: 20px;
+}
+
+.chatHeader{
+    font-weight:bold;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#chat_messages{
+    position: absolute;
+    bottom: 50;
+    width: 93%;
+    max-height: 80%;
+    overflow-y: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.form{
+    position: absolute;
+    width: 96%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
